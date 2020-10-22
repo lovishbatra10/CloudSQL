@@ -1,9 +1,13 @@
 Set up credentials, connection info and database info as environment variables.
 
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/service/account/key.json
+
 export CLOUD_SQL_CONNECTION_NAME='<MY-PROJECT>:<INSTANCE-REGION>:<MY-DATABASE>'
+
 export DB_USER='my-db-user'
+
 export DB_PASS='my-db-pass'
+
 export DB_NAME='my_db'
 
 
